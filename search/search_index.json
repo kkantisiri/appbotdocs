@@ -1,0 +1,149 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "AppBot Documentation\n\n\nWelcome\n\n\nWelcome to the AppBot Documentation! \n \n\nInvite the bot to your server by clicking the image below. \n \n\n\n \n \n\nMake sure to join \nthe support server\n if you ever need any help.\n \n\nIf you want to donate and make the bot better \nclick here\n \n\nTo keep the bot developers encouraged to keep the bot, vote for the bot by \nclicking here\n \n \n\n\nContent\n\n\n\n\nGetting Started\n\n\nFirst Application\n\n\n\n\n\n\nCommands\n\n\nAdministrator Commands\n\n\nMember Commands\n\n\nExtra Commands",
+            "title": "Home"
+        },
+        {
+            "location": "/#appbot-documentation",
+            "text": "",
+            "title": "AppBot Documentation"
+        },
+        {
+            "location": "/#welcome",
+            "text": "Welcome to the AppBot Documentation!    \nInvite the bot to your server by clicking the image below.         \nMake sure to join  the support server  if you ever need any help.   \nIf you want to donate and make the bot better  click here   \nTo keep the bot developers encouraged to keep the bot, vote for the bot by  clicking here",
+            "title": "Welcome"
+        },
+        {
+            "location": "/#content",
+            "text": "Getting Started  First Application    Commands  Administrator Commands  Member Commands  Extra Commands",
+            "title": "Content"
+        },
+        {
+            "location": "/getting-started/",
+            "text": "Getting Started\n\n\nMaking your first application\n\n\nThank you for adding AppBot to your server. This section of the documentation will explain how to set up your first application.\n\n\nStep One",
+            "title": "Getting Started"
+        },
+        {
+            "location": "/getting-started/#getting-started",
+            "text": "",
+            "title": "Getting Started"
+        },
+        {
+            "location": "/getting-started/#making-your-first-application",
+            "text": "Thank you for adding AppBot to your server. This section of the documentation will explain how to set up your first application.",
+            "title": "Making your first application"
+        },
+        {
+            "location": "/getting-started/#step-one",
+            "text": "",
+            "title": "Step One"
+        },
+        {
+            "location": "/commands/",
+            "text": "Commmands\n\n\nAdministrator Commands\n\n\n\nThe following commands are for users with either the Administrator permission, or for people who have the application reviewing/editing role (if set).\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n/config\n\n\nIf no applications have been created, this command will create your first one. Otherwise, it's used to create another application, edit the questions of an application, or to reset the bot.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMember Commands\n\n\n \nAll users without either the Administrator permission, or without the application-reviewing role (if set) are considered members.\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\nUsage\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtra Commands\n\n\n\nThese commands are not shown in the regular help command provided the bot.\n\n\n\n\n\n\n\n\nCommand\n\n\nDescription\n\n\nUsage",
+            "title": "Commands"
+        },
+        {
+            "location": "/commands/#commmands",
+            "text": "",
+            "title": "Commmands"
+        },
+        {
+            "location": "/commands/#administrator-commands",
+            "text": "The following commands are for users with either the Administrator permission, or for people who have the application reviewing/editing role (if set).     Command  Description      /config  If no applications have been created, this command will create your first one. Otherwise, it's used to create another application, edit the questions of an application, or to reset the bot.",
+            "title": "Administrator Commands"
+        },
+        {
+            "location": "/commands/#member-commands",
+            "text": "All users without either the Administrator permission, or without the application-reviewing role (if set) are considered members.     Command  Description  Usage",
+            "title": "Member Commands"
+        },
+        {
+            "location": "/commands/#extra-commands",
+            "text": "These commands are not shown in the regular help command provided the bot.     Command  Description  Usage",
+            "title": "Extra Commands"
+        },
+        {
+            "location": "/faq/",
+            "text": "",
+            "title": "F.A.Qs"
+        },
+        {
+            "location": "/changelog/",
+            "text": "Changelogs\n\n\n\n\n\nUpdates\n\n\nAppBot is always getting updated, to make it easier for you to know what's getting updated, the change logs are listed here.\n\n\nVersion 1.6.7 - \n/mydata\n minor bug fix\n\n\n\n\nFixed a bug whre applications without an autorole set would create a bug\n\n\n\n\nVersion 1.6.6 - \n/mydata\n\n\n\n\nAdded \n/mydata\n for server's applications\n\n\n\n\nVersion 1.6.5 - Caps Bug Fix\n\n\n\n\nFixed a bug where caps while editing an application would make it uneditable\n\n\n\n\nVersion 1.6.4 - Application Name Editing\n\n\n\n\nApplication names can now be edited\n\n\n\n\nVersion 1.6.3 - Logs Bug\n\n\n\n\nFixed a bug where accepted applications wouldn't get logged or archieved\n\n\n\n\nVersion 1.6.2 - \n/register\n enhanced\n\n\n\n\nIf you're using the bot as a register bot, \n/reister\n will now make more sence. Instead of something like \"Apply for Position\", it'll be changed to \"Register for position\" based off of the command invoked.\n\n\n\n\nVersion 1.6.1 - Bug fix\n\n\n\n\nFixed a minor bug where trying to whitelist a role before blacklisting would cause a bug to occur\n\n\n\n\nVersion 1.6.0 - Major bug fixes and minor changes and updates\n\n\n\n\nFixed a major lasting bug where timing out while creating an application would create a permanently bugged application\n\n\nFixed a major lasting bug where you can review an application while the applier was still creating the application\n\n\nAdded \n/help <command>\n to view a specific command's description\n\n\nMade \n/format\n and \n/apps\n in the same channel rather than in a DM\n\n\nChanged \"amount\" to \"num_of_qns\" in the usage for \n/app create\n(Less confusing)\n\n\nAdded \n/register\n alias for \n/apply\n\n\n\n\nVersion 1.5.5 - Minor bug fixes\n\n\n\n\nUn-unupdated an update where the cool down message should've sent\n\n\nAnother minor change\n\n\n\n\nVersion 1.5.4 - Major Security Bug Fix\n\n\n\n\nFixed a bug where members without permissions can use \n/app\n subcommands\n\n\n\n\nVersion 1.5.3 - Archived Applications\n\n\n\n\nAdded \n/setarchieves <channel>\n - set a channel where a copy of applications get sent to the end, after an app gets reviewed\n\n\nFixed the message in command cooldown - The bot was supposed to send a message if you ran a command while it was on cooldown\n\n\n\n\nVersion 1.5.2\n\n\nClosed applications will now be crossed out \nlike this\n in \n/app list\n and \n/apply",
+            "title": "Change Logs"
+        },
+        {
+            "location": "/changelog/#changelogs",
+            "text": "",
+            "title": "Changelogs"
+        },
+        {
+            "location": "/changelog/#updates",
+            "text": "AppBot is always getting updated, to make it easier for you to know what's getting updated, the change logs are listed here.",
+            "title": "Updates"
+        },
+        {
+            "location": "/changelog/#version-167-mydata-minor-bug-fix",
+            "text": "Fixed a bug whre applications without an autorole set would create a bug",
+            "title": "Version 1.6.7 - /mydata minor bug fix"
+        },
+        {
+            "location": "/changelog/#version-166-mydata",
+            "text": "Added  /mydata  for server's applications",
+            "title": "Version 1.6.6 - /mydata"
+        },
+        {
+            "location": "/changelog/#version-165-caps-bug-fix",
+            "text": "Fixed a bug where caps while editing an application would make it uneditable",
+            "title": "Version 1.6.5 - Caps Bug Fix"
+        },
+        {
+            "location": "/changelog/#version-164-application-name-editing",
+            "text": "Application names can now be edited",
+            "title": "Version 1.6.4 - Application Name Editing"
+        },
+        {
+            "location": "/changelog/#version-163-logs-bug",
+            "text": "Fixed a bug where accepted applications wouldn't get logged or archieved",
+            "title": "Version 1.6.3 - Logs Bug"
+        },
+        {
+            "location": "/changelog/#version-162-register-enhanced",
+            "text": "If you're using the bot as a register bot,  /reister  will now make more sence. Instead of something like \"Apply for Position\", it'll be changed to \"Register for position\" based off of the command invoked.",
+            "title": "Version 1.6.2 - /register enhanced"
+        },
+        {
+            "location": "/changelog/#version-161-bug-fix",
+            "text": "Fixed a minor bug where trying to whitelist a role before blacklisting would cause a bug to occur",
+            "title": "Version 1.6.1 - Bug fix"
+        },
+        {
+            "location": "/changelog/#version-160-major-bug-fixes-and-minor-changes-and-updates",
+            "text": "Fixed a major lasting bug where timing out while creating an application would create a permanently bugged application  Fixed a major lasting bug where you can review an application while the applier was still creating the application  Added  /help <command>  to view a specific command's description  Made  /format  and  /apps  in the same channel rather than in a DM  Changed \"amount\" to \"num_of_qns\" in the usage for  /app create (Less confusing)  Added  /register  alias for  /apply",
+            "title": "Version 1.6.0 - Major bug fixes and minor changes and updates"
+        },
+        {
+            "location": "/changelog/#version-155-minor-bug-fixes",
+            "text": "Un-unupdated an update where the cool down message should've sent  Another minor change",
+            "title": "Version 1.5.5 - Minor bug fixes"
+        },
+        {
+            "location": "/changelog/#version-154-major-security-bug-fix",
+            "text": "Fixed a bug where members without permissions can use  /app  subcommands",
+            "title": "Version 1.5.4 - Major Security Bug Fix"
+        },
+        {
+            "location": "/changelog/#version-153-archived-applications",
+            "text": "Added  /setarchieves <channel>  - set a channel where a copy of applications get sent to the end, after an app gets reviewed  Fixed the message in command cooldown - The bot was supposed to send a message if you ran a command while it was on cooldown",
+            "title": "Version 1.5.3 - Archived Applications"
+        },
+        {
+            "location": "/changelog/#version-152",
+            "text": "Closed applications will now be crossed out  like this  in  /app list  and  /apply",
+            "title": "Version 1.5.2"
+        }
+    ]
+}

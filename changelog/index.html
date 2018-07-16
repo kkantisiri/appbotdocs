@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    <title>Change Logs - AppBot Documentation</title>
+
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+
+
+    <link href="../extra.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="..">AppBot Documentation</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../getting-started/">Getting Started</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../commands/">Commands</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../faq/">F.A.Qs</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Change Logs</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../faq/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li class="disabled">
+                        <a rel="prev" >
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#changelogs">Changelogs</a></li>
+            <li class="second-level"><a href="#updates">Updates</a></li>
+                
+                <li class="third-level"><a href="#version-167-mydata-minor-bug-fix">Version 1.6.7 - /mydata minor bug fix</a></li>
+                <li class="third-level"><a href="#version-166-mydata">Version 1.6.6 - /mydata</a></li>
+                <li class="third-level"><a href="#version-165-caps-bug-fix">Version 1.6.5 - Caps Bug Fix</a></li>
+                <li class="third-level"><a href="#version-164-application-name-editing">Version 1.6.4 - Application Name Editing</a></li>
+                <li class="third-level"><a href="#version-163-logs-bug">Version 1.6.3 - Logs Bug</a></li>
+                <li class="third-level"><a href="#version-162-register-enhanced">Version 1.6.2 - /register enhanced</a></li>
+                <li class="third-level"><a href="#version-161-bug-fix">Version 1.6.1 - Bug fix</a></li>
+                <li class="third-level"><a href="#version-160-major-bug-fixes-and-minor-changes-and-updates">Version 1.6.0 - Major bug fixes and minor changes and updates</a></li>
+                <li class="third-level"><a href="#version-155-minor-bug-fixes">Version 1.5.5 - Minor bug fixes</a></li>
+                <li class="third-level"><a href="#version-154-major-security-bug-fix">Version 1.5.4 - Major Security Bug Fix</a></li>
+                <li class="third-level"><a href="#version-153-archived-applications">Version 1.5.3 - Archived Applications</a></li>
+                <li class="third-level"><a href="#version-152">Version 1.5.2</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="changelogs">Changelogs</h1>
+<hr>
+
+<h2 id="updates">Updates</h2>
+<p>AppBot is always getting updated, to make it easier for you to know what's getting updated, the change logs are listed here.</p>
+<h3 id="version-167-mydata-minor-bug-fix">Version 1.6.7 - <code>/mydata</code> minor bug fix</h3>
+<ul>
+<li>Fixed a bug whre applications without an autorole set would create a bug</li>
+</ul>
+<h3 id="version-166-mydata">Version 1.6.6 - <code>/mydata</code></h3>
+<ul>
+<li>Added <code>/mydata</code> for server's applications</li>
+</ul>
+<h3 id="version-165-caps-bug-fix">Version 1.6.5 - Caps Bug Fix</h3>
+<ul>
+<li>Fixed a bug where caps while editing an application would make it uneditable</li>
+</ul>
+<h3 id="version-164-application-name-editing">Version 1.6.4 - Application Name Editing</h3>
+<ul>
+<li>Application names can now be edited</li>
+</ul>
+<h3 id="version-163-logs-bug">Version 1.6.3 - Logs Bug</h3>
+<ul>
+<li>Fixed a bug where accepted applications wouldn't get logged or archieved</li>
+</ul>
+<h3 id="version-162-register-enhanced">Version 1.6.2 - <code>/register</code> enhanced</h3>
+<ul>
+<li>If you're using the bot as a register bot, <code>/reister</code> will now make more sence. Instead of something like "Apply for Position", it'll be changed to "Register for position" based off of the command invoked.</li>
+</ul>
+<h3 id="version-161-bug-fix">Version 1.6.1 - Bug fix</h3>
+<ul>
+<li>Fixed a minor bug where trying to whitelist a role before blacklisting would cause a bug to occur</li>
+</ul>
+<h3 id="version-160-major-bug-fixes-and-minor-changes-and-updates">Version 1.6.0 - Major bug fixes and minor changes and updates</h3>
+<ul>
+<li>Fixed a major lasting bug where timing out while creating an application would create a permanently bugged application</li>
+<li>Fixed a major lasting bug where you can review an application while the applier was still creating the application</li>
+<li>Added <code>/help &lt;command&gt;</code> to view a specific command's description</li>
+<li>Made <code>/format</code> and <code>/apps</code> in the same channel rather than in a DM</li>
+<li>Changed "amount" to "num_of_qns" in the usage for <code>/app create</code>(Less confusing)</li>
+<li>Added <code>/register</code> alias for <code>/apply</code></li>
+</ul>
+<h3 id="version-155-minor-bug-fixes">Version 1.5.5 - Minor bug fixes</h3>
+<ul>
+<li>Un-unupdated an update where the cool down message should've sent</li>
+<li>Another minor change</li>
+</ul>
+<h3 id="version-154-major-security-bug-fix">Version 1.5.4 - Major Security Bug Fix</h3>
+<ul>
+<li>Fixed a bug where members without permissions can use <code>/app</code> subcommands</li>
+</ul>
+<h3 id="version-153-archived-applications">Version 1.5.3 - Archived Applications</h3>
+<ul>
+<li>Added <code>/setarchieves &lt;channel&gt;</code> - set a channel where a copy of applications get sent to the end, after an app gets reviewed</li>
+<li>Fixed the message in command cooldown - The bot was supposed to send a message if you ran a command while it was on cooldown</li>
+</ul>
+<h3 id="version-152">Version 1.5.2</h3>
+<p>Closed applications will now be crossed out <strike>like this</strike> in <code>/app list</code> and <code>/apply</code></p></div>
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <hr>
+        <p>
+        <small>Copyright &copy; AppBot 2018<br></small>
+        
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+    </footer>
+
+    <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '..';
+    </script>
+    <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+    <script src="../js/base.js"></script>
+    <script src="../search/require.js"></script>
+    <script src="../search/search.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>
