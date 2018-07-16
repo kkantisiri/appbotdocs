@@ -72,7 +72,7 @@
         },
         {
             "location": "/changelog/",
-            "text": "Changelogs\n\n\n\n\n\nUpdates\n\n\nAppBot is always getting updated, to make it easier for you to know what's getting updated, the change logs are listed here.\n\n\nVersion 1.6.7 - \n/mydata\n minor bug fix\n\n\n\n\nFixed a bug whre applications without an autorole set would create a bug\n\n\n\n\nVersion 1.6.6 - \n/mydata\n\n\n\n\nAdded \n/mydata\n for server's applications\n\n\n\n\nVersion 1.6.5 - Caps Bug Fix\n\n\n\n\nFixed a bug where caps while editing an application would make it uneditable\n\n\n\n\nVersion 1.6.4 - Application Name Editing\n\n\n\n\nApplication names can now be edited\n\n\n\n\nVersion 1.6.3 - Logs Bug\n\n\n\n\nFixed a bug where accepted applications wouldn't get logged or archieved\n\n\n\n\nVersion 1.6.2 - \n/register\n enhanced\n\n\n\n\nIf you're using the bot as a register bot, \n/reister\n will now make more sence. Instead of something like \"Apply for Position\", it'll be changed to \"Register for position\" based off of the command invoked.\n\n\n\n\nVersion 1.6.1 - Bug fix\n\n\n\n\nFixed a minor bug where trying to whitelist a role before blacklisting would cause a bug to occur\n\n\n\n\nVersion 1.6.0 - Major bug fixes and minor changes and updates\n\n\n\n\nFixed a major lasting bug where timing out while creating an application would create a permanently bugged application\n\n\nFixed a major lasting bug where you can review an application while the applier was still creating the application\n\n\nAdded \n/help <command>\n to view a specific command's description\n\n\nMade \n/format\n and \n/apps\n in the same channel rather than in a DM\n\n\nChanged \"amount\" to \"num_of_qns\" in the usage for \n/app create\n(Less confusing)\n\n\nAdded \n/register\n alias for \n/apply\n\n\n\n\nVersion 1.5.5 - Minor bug fixes\n\n\n\n\nUn-unupdated an update where the cool down message should've sent\n\n\nAnother minor change\n\n\n\n\nVersion 1.5.4 - Major Security Bug Fix\n\n\n\n\nFixed a bug where members without permissions can use \n/app\n subcommands\n\n\n\n\nVersion 1.5.3 - Archived Applications\n\n\n\n\nAdded \n/setarchieves <channel>\n - set a channel where a copy of applications get sent to the end, after an app gets reviewed\n\n\nFixed the message in command cooldown - The bot was supposed to send a message if you ran a command while it was on cooldown\n\n\n\n\nVersion 1.5.2\n\n\nClosed applications will now be crossed out \nlike this\n in \n/app list\n and \n/apply",
+            "text": "Changelogs\n\n\n\n\n\nUpdates\n\n\nAppBot is always getting updated, to make it easier for you to know what's getting updated, the change logs are listed here.\n\n\nVersion 1.6.7 - \n/mydata\n minor bug fix\n\n\n\n\nFixed a bug whre applications without an autorole set would create a bug\n\n\n\n\nVersion 1.6.6 - \n/mydata\n\n\n\n\nAdded \n/mydata\n for server's applications\n\n\n\n\nVersion 1.6.5 - Caps Bug Fix\n\n\n\n\nFixed a bug where caps while editing an application would make it uneditable\n\n\n\n\nVersion 1.6.4 - Application Name Editing\n\n\n\n\nApplication names can now be edited\n\n\n\n\nVersion 1.6.3 - Logs Bug\n\n\n\n\nFixed a bug where accepted applications wouldn't get logged or archieved\n\n\n\n\nVersion 1.6.2 - \n/register\n enhanced\n\n\n\n\nIf you're using the bot as a register bot, \n/reister\n will now make more sence. Instead of something like \"Apply for Position\", it'll be changed to \"Register for position\" based off of the command invoked.\n\n\n\n\nVersion 1.6.1 - Bug fix\n\n\n\n\nFixed a minor bug where trying to whitelist a role before blacklisting would cause a bug to occur\n\n\n\n\nVersion 1.6.0 - Major bug fixes and minor changes and updates\n\n\n\n\nFixed a major lasting bug where timing out while creating an application would create a permanently bugged application\n\n\nFixed a major lasting bug where you can review an application while the applier was still creating the application\n\n\nAdded \n/help <command>\n to view a specific command's description\n\n\nMade \n/format\n and \n/apps\n in the same channel rather than in a DM\n\n\nChanged \"amount\" to \"num_of_qns\" in the usage for \n/app create\n(Less confusing)\n\n\nAdded \n/register\n alias for \n/apply\n\n\n\n\nVersion 1.5.5 - Minor bug fixes\n\n\n\n\nUn-unupdated an update where the cool down message should've sent\n\n\nAnother minor change\n\n\n\n\nVersion 1.5.4 - Major Security Bug Fix\n\n\n\n\nFixed a bug where members without permissions can use \n/app\n subcommands\n\n\n\n\nVersion 1.5.3 - Archived Applications\n\n\n\n\nAdded \n/setarchieves <channel>\n - set a channel where a copy of applications get sent to the end, after an app gets reviewed\n\n\nFixed the message in command cooldown - The bot was supposed to send a message if you ran a command while it was on cooldown\n\n\n\n\nVersion 1.5.2\n\n\n\n\nClosed applications will now be crossed out \nlike this\n in \n/app list\n and \n/apply\n\n\n\n\nVersion 1.5.1\n\n\n\n\nUnreverted an application - accidentally removed discrims from /apps, added back\n\n\n\n\nVersion 1.5.0 - Major Update\n\n\n\n\nAdded a \n/edit\n command for member answer editing\n\n\nFixed some text issues\n\n\nFixed a bug where non-utf-8 answers that were longer than 1024 chars would cause a bug \n\n\nAdded a more descriptive log message for new applications\n    \nBefore: \nMember\n appplied in this server.\n    \nAfter: \nMember\n applied for \nJob\n\n\nAdded \n/blacklist\n to set a role that can be given to members to prevent them from applying\n\n\nAdded \n/delete\n to allow members to delete apps that they've submitted\n\n\nAdded \n/app open <app>\n & \n/app close <app>\n for temporarily closing app positions\n\n\n\"Enter a reason that you denied the app\" is now embedded\n\n\nDenying app reason timeout has been extended to 10 minutes\n\n\nGlobal announcements can now be configurable\n\n\nFixed a small text error where the prefix would not be the correctly invoked one in\n\n\n\n\nVersion 1.4.6\n\n\n\n\nFixed a weird bug that would happen if someone tried to edit an app without an acceptance message\n\n\n\n\nVersion 1.4.5\n\n\n\n\nFixed a bug where missing members caused \n/apps\n to stop working - now they don't show up anymore\n\n\n\n\nVersion 1.4.4\n\n\n\n\nAdded descriminators in \n/apps\n to make finding users easier\n\n\n\n\nVersion 1.4.3\n\n\n\n\nAdded a rotating status, fixed the \n/info\n command\n\n\n\n\nVersion 1.4.2\n\n\n\n\nFixed a pretty common bug where appliers enter a negative number if the server has multiple job positions\n\n\n\n\nVersion 1.4.1\n\n\n\n\nAdded a gif for autorole permissions help\n\n\n\n\nVersion 1.4.0\n\n\n\n\nAdded an error handler for people who disabled DMs\n\n\n\n\nVersion 1.3.4\n\n\n\n\nFixed the status of the bot\n\n\n\n\nVersion 1.3.3\n\n\n\n\nAll commands are no longer case sensitive \n\n\n\n\nVersion 1.3.2 - Minor Updates to Help Command\n\n\n\n\nAdded \n/support\n command for an invite link to the support server\n\n\n\n\nVersion 1.3.1\n\n\n\n\nAdded \n/uptime\n\n\n\n\nVersion 1.3 - Updated \n/help\n command\n\n\n\n\nThe help command is more modern, organized, categorized, and detailed.\n\n\n\n\nVersion 1.2.3\n\n\n\n\nFixed a minor bug where editing application's custom accept messages before 1.2.1 would cause an error\n\n\n\n\nVersion 1.2.2 - Bug fixes and Design Improvements\n\n\n\n\nA major bug that prevented editing questions within \n/config\n\n\n\n\nVersion 1.2.0 - Considerably Major Update\n\n\n\n\nHandler made for image uploading\n\n\nTheming (\n/settheme hex\n) will change the colors of all embeds for the bot\n\n\nNumbering added to application editing\n\n\nMade as presence status for the bot\n\n\nFixed a bug where deleting an application while members still have applications for the deleting position would cause an error\n\n\n\n\nVersion 1.1.3\n\n\n\n\nAdded Embed Limits handler\n\n\nLogs are now in Beta \n\n\n\n\nVersion 1.1.2\n\n\n\n\nThe time to reply with an answer has been extended to 30 minutes\n\n\n\n\nVersion 1.1.1 - Minor Update/Bug Fixes\n\n\n\n\nFixed a bug where servers that didn't appear on the database would start spamming the console, fixed by creating a handler that adds them to the database as if they just added the bot\n\n\nUpdated the new \n/help\n command in according to update 1.1.0\n\n\n\n\nVersion 1.1.0 - Set a role for Application Reviewing\n\n\n\n\nYou can now set a role to be able to edit and view applications with \n/setrole @Role\n\n\n\n\nVersion 0.9.2 - Minor Update\n\n\n\n\nAutomated Bug Log has been added for faster bug fixes\n\n\n\n\nVersion 0.9.1 - New Update\n\n\n\n\nCustom emotes to make reactions look fancier\n\n\nAutoroles if a member gets accepted for a role\n\n\nFixed \n/help\n command for members\n\n\nOther minor fixes\n\n\n\n\nVersion 0.9.0 - Multiapplications\n\n\n\n\nMulti-applications are now supported! You can now have more than one application format for your members! To add another application, type \n/config\n\n\n\n\nVersion 0.8.3 - Application Formats\n\n\n\n\nAdded \n/format\n, so that appliers can easily view the application to get an idea of what questions that they will be answering\n\n\n\n\nVersion 0.8.2\n\n\n\n\nAdded a feature where appliers can now look over what they put in the application in the end, and able to edit any mistakes they make\n\n\n\n\nVersion 0.8.1\n\n\n\n\nThe file that holds the data has been shortened all the way up to from originally almost 40000 lines to around 105\n\n\n\n\nVersion 0.8.0 - Initial Public Release\n\n\n\n\nAfter first releasing the bot, the bot has gotten added to a huge server :)",
             "title": "Change Logs"
         },
         {
@@ -144,6 +144,146 @@
             "location": "/changelog/#version-152",
             "text": "Closed applications will now be crossed out  like this  in  /app list  and  /apply",
             "title": "Version 1.5.2"
+        },
+        {
+            "location": "/changelog/#version-151",
+            "text": "Unreverted an application - accidentally removed discrims from /apps, added back",
+            "title": "Version 1.5.1"
+        },
+        {
+            "location": "/changelog/#version-150-major-update",
+            "text": "Added a  /edit  command for member answer editing  Fixed some text issues  Fixed a bug where non-utf-8 answers that were longer than 1024 chars would cause a bug   Added a more descriptive log message for new applications\n     Before:  Member  appplied in this server.\n     After:  Member  applied for  Job  Added  /blacklist  to set a role that can be given to members to prevent them from applying  Added  /delete  to allow members to delete apps that they've submitted  Added  /app open <app>  &  /app close <app>  for temporarily closing app positions  \"Enter a reason that you denied the app\" is now embedded  Denying app reason timeout has been extended to 10 minutes  Global announcements can now be configurable  Fixed a small text error where the prefix would not be the correctly invoked one in",
+            "title": "Version 1.5.0 - Major Update"
+        },
+        {
+            "location": "/changelog/#version-146",
+            "text": "Fixed a weird bug that would happen if someone tried to edit an app without an acceptance message",
+            "title": "Version 1.4.6"
+        },
+        {
+            "location": "/changelog/#version-145",
+            "text": "Fixed a bug where missing members caused  /apps  to stop working - now they don't show up anymore",
+            "title": "Version 1.4.5"
+        },
+        {
+            "location": "/changelog/#version-144",
+            "text": "Added descriminators in  /apps  to make finding users easier",
+            "title": "Version 1.4.4"
+        },
+        {
+            "location": "/changelog/#version-143",
+            "text": "Added a rotating status, fixed the  /info  command",
+            "title": "Version 1.4.3"
+        },
+        {
+            "location": "/changelog/#version-142",
+            "text": "Fixed a pretty common bug where appliers enter a negative number if the server has multiple job positions",
+            "title": "Version 1.4.2"
+        },
+        {
+            "location": "/changelog/#version-141",
+            "text": "Added a gif for autorole permissions help",
+            "title": "Version 1.4.1"
+        },
+        {
+            "location": "/changelog/#version-140",
+            "text": "Added an error handler for people who disabled DMs",
+            "title": "Version 1.4.0"
+        },
+        {
+            "location": "/changelog/#version-134",
+            "text": "Fixed the status of the bot",
+            "title": "Version 1.3.4"
+        },
+        {
+            "location": "/changelog/#version-133",
+            "text": "All commands are no longer case sensitive",
+            "title": "Version 1.3.3"
+        },
+        {
+            "location": "/changelog/#version-132-minor-updates-to-help-command",
+            "text": "Added  /support  command for an invite link to the support server",
+            "title": "Version 1.3.2 - Minor Updates to Help Command"
+        },
+        {
+            "location": "/changelog/#version-131",
+            "text": "Added  /uptime",
+            "title": "Version 1.3.1"
+        },
+        {
+            "location": "/changelog/#version-13-updated-help-command",
+            "text": "The help command is more modern, organized, categorized, and detailed.",
+            "title": "Version 1.3 - Updated /help command"
+        },
+        {
+            "location": "/changelog/#version-123",
+            "text": "Fixed a minor bug where editing application's custom accept messages before 1.2.1 would cause an error",
+            "title": "Version 1.2.3"
+        },
+        {
+            "location": "/changelog/#version-122-bug-fixes-and-design-improvements",
+            "text": "A major bug that prevented editing questions within  /config",
+            "title": "Version 1.2.2 - Bug fixes and Design Improvements"
+        },
+        {
+            "location": "/changelog/#version-120-considerably-major-update",
+            "text": "Handler made for image uploading  Theming ( /settheme hex ) will change the colors of all embeds for the bot  Numbering added to application editing  Made as presence status for the bot  Fixed a bug where deleting an application while members still have applications for the deleting position would cause an error",
+            "title": "Version 1.2.0 - Considerably Major Update"
+        },
+        {
+            "location": "/changelog/#version-113",
+            "text": "Added Embed Limits handler  Logs are now in Beta",
+            "title": "Version 1.1.3"
+        },
+        {
+            "location": "/changelog/#version-112",
+            "text": "The time to reply with an answer has been extended to 30 minutes",
+            "title": "Version 1.1.2"
+        },
+        {
+            "location": "/changelog/#version-111-minor-updatebug-fixes",
+            "text": "Fixed a bug where servers that didn't appear on the database would start spamming the console, fixed by creating a handler that adds them to the database as if they just added the bot  Updated the new  /help  command in according to update 1.1.0",
+            "title": "Version 1.1.1 - Minor Update/Bug Fixes"
+        },
+        {
+            "location": "/changelog/#version-110-set-a-role-for-application-reviewing",
+            "text": "You can now set a role to be able to edit and view applications with  /setrole @Role",
+            "title": "Version 1.1.0 - Set a role for Application Reviewing"
+        },
+        {
+            "location": "/changelog/#version-092-minor-update",
+            "text": "Automated Bug Log has been added for faster bug fixes",
+            "title": "Version 0.9.2 - Minor Update"
+        },
+        {
+            "location": "/changelog/#version-091-new-update",
+            "text": "Custom emotes to make reactions look fancier  Autoroles if a member gets accepted for a role  Fixed  /help  command for members  Other minor fixes",
+            "title": "Version 0.9.1 - New Update"
+        },
+        {
+            "location": "/changelog/#version-090-multiapplications",
+            "text": "Multi-applications are now supported! You can now have more than one application format for your members! To add another application, type  /config",
+            "title": "Version 0.9.0 - Multiapplications"
+        },
+        {
+            "location": "/changelog/#version-083-application-formats",
+            "text": "Added  /format , so that appliers can easily view the application to get an idea of what questions that they will be answering",
+            "title": "Version 0.8.3 - Application Formats"
+        },
+        {
+            "location": "/changelog/#version-082",
+            "text": "Added a feature where appliers can now look over what they put in the application in the end, and able to edit any mistakes they make",
+            "title": "Version 0.8.2"
+        },
+        {
+            "location": "/changelog/#version-081",
+            "text": "The file that holds the data has been shortened all the way up to from originally almost 40000 lines to around 105",
+            "title": "Version 0.8.1"
+        },
+        {
+            "location": "/changelog/#version-080-initial-public-release",
+            "text": "After first releasing the bot, the bot has gotten added to a huge server :)",
+            "title": "Version 0.8.0 - Initial Public Release"
         }
     ]
 }
